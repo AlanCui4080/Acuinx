@@ -10,3 +10,4 @@ $(MKDIR)/kheader.o:kheader.S
 	$(GAS) --32 -o $(MKDIR)/kheader.o kheader.S
 $(MKDIR)/kstart.o:kstart.c
 	$(CC) $(CMKFLG) -o $(MKDIR)/kstart.o kstart.c
+	
